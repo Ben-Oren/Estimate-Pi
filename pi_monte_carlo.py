@@ -3,7 +3,7 @@ from pylab import plot,show,axis
 from numpy import random,sqrt,pi
 
 # scattering n points over the unit square
-n = input("How many points? Hint: lots")
+n = input("How many points? Hint: lots" )
 n = int(n)
 p = random.rand(n,2)
 
