@@ -4,6 +4,7 @@ from numpy import random,sqrt,pi
 
 # scattering n points over the unit square
 n = input("How many points? Hint: lots")
+n = int(n)
 p = random.rand(n,2)
 
 # counting the points inside the unit circle
