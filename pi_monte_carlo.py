@@ -17,7 +17,7 @@ show()
 result = (sum(idx).astype('double')/n*4) # store estimate in var "result"
 
 
-# estimation of pi
+# print estimation of pi
 print '%0.16f' % result,'result'
 print '%0.16f' % pi,'real pi'
-print '%0.16f' % (result / pi) * 100, 'percent error between estimate and real value of pi'
+print '%0.16f' % ((result - pi) / pi) * 100), 'percent difference between estimate and real value of pi'
