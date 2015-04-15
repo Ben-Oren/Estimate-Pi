@@ -14,7 +14,10 @@ plot(p[idx,0],p[idx,1],'b.') # point inside
 plot(p[idx==False,0],p[idx==False,1],'r.') # point outside
 axis([-0.1,1.1,-0.1,1.1]) 
 show()
+result = (sum(idx).astype('double')/n*4) # store estimate in var "result"
+
 
 # estimation of pi
-print '%0.16f' % (sum(idx).astype('double')/n*4),'result'
+print '%0.16f' % result,'result'
 print '%0.16f' % pi,'real pi'
+print '%0.16f' % (result / pi) * 100, 'percent error between estimate and real value of pi'
