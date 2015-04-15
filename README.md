@@ -1,6 +1,11 @@
 # README
+
+Summary: 
 A quick little demonstration of a monte carlo method for estimating pi: estimating the area of a quarter circle with randomly-plotted points, multiplying that area by 4 (to get a full circle's area) and dividing the result by r**2 to get pi
 
+
+
+Nuts and bolts: 
 The user gives a number of points; this number of points is randomly plotted inside a unit square
 
 The number of points plotted within a quarter-circle inscribed within the square are divided by the total number of points plotted
@@ -17,10 +22,13 @@ Since the radius is 1, the area of the full circle is equal to pi*r**2 = pi*1 = 
 
 Thus, the estimated area of the total circle acts as an estimate for the value of pi
 
+
+
+Output:
 The program asks for:           a number from the user
 
 and provides:                   a graph of that number of randomly-plotted points (using different colors for points inside and outside the quarter circle)
-
+                                
                                 the calculated estimate for pi using that number of points
                                 
                                 the real value of pi
