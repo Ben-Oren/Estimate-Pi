@@ -16,7 +16,7 @@ Since the area of the unit square is known and equal to 1, the estimated area of
 
 The estimated area of the quarter circle is multiplied by 4 to get the estimated area of the total circle
 
-Since the radius is 1, the area of the full circle is equal to pi*r**2 = pi*1 = pi
+Since the radius is 1, the area of the full circle is equal to pi * r**2 = pi * 1 = pi
 
 Thus, the estimated area of the total circle acts as an estimate for the value of pi
 
