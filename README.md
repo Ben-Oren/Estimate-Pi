@@ -20,11 +20,13 @@ Since the radius is 1, the area of the full circle is equal to pi * r**2 = pi * 
 
 Thus, the estimated area of the total circle acts as an estimate for the value of pi
 
-Output:
+Input:
 The program asks for
 - a number from the user
 
-and provides
+Output:
+The program outputs:
+
 - a graph of that number of randomly-plotted points (using different colors for points inside and outside the quarter circle)
 
 - the calculated estimate for pi using that number of points
